@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MilkyWay | Equipe</title>
+        <link href="./css/styles.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="./media/rocket.png">
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav_fix">
+                <div class="fond">
+                    <a href="./index.html"><img src="./media/Logo.png" width="auto" height="80" alt="Logo"></a>
+                </div>
+                <ul class="liste_menu">
+                    <li><a href="./planetes.html">Planètes</a></li>
+                    <li><a href="./equipe.html">Team</a></li>
+                    <li><a href="./presse.html">Presse</a></li>
+                    <li class="a_gg" onclick="openNav()"><span class="icon_menu">&equiv;</span></li>
+                    <li><a href="./recrutement.html">Recrutement</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <nav id="nav_responsive" class="nav_responsive">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="./planetes.html">Planètes</a>
+                <a href="./equipe.html">Team</a>
+                <a href="./presse.html">Presse</a>
+                <a href="./recrutement.html">Recrutement</a>
+                <a href="./faq.html">FAQ</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+        </header>
+        <main class="main_equipe">
+            <div class="equipe">
+                <img id="antho" src="media/anthoavatar.svg">
+                <div>
+                    <p id="pantho">
+                        Etudiant en IUT informatique, passionné de programmation, fondateur du projet MilkyWay, j'ai soif d'apprendre
+                        la programmation web avec le JavaScript et le PHP, ce projet est le début d'une grande aventure.
+                    </p>
+                    <ul class="liste_social">
+                        <li><img src="media/facebook.svg" alt="Facebook"></li>
+                        <li><img src="media/twitter.svg" alt="Twitter"></li>
+                        <li><img src="media/youtube.svg" alt="Youtube"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="equipe">
+                <img id="benji" src="media/benjiavatar.svg">
+                <div>
+                    <p id="pbenji">
+                        Etudiant en IUT informatique, prévois de devenir développeur web, fondateur du projet MilkyWay, tout comme Anthony,
+                        je veux apprendre le mieux possible le HTML, le CSS, le JavaScript, et le PHP, ainsi que d'autres langages, et devenir développeur web.
+                    </p>
+                    <ul class="liste_social">
+                        <li><img src="media/facebook.svg" alt="Facebook"></li>
+                        <li><img src="media/twitter.svg" alt="Twitter"></li>
+                        <li><img src="media/youtube.svg" alt="Youtube"></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <blockquote >“La jeunesse veut l'espace, la vieillesse le temps. ”</blockquote >
+            <section class="social">
+                <ul class="liste_menu">
+                    <li><img src="media/facebook.svg" width="65" alt="Facebook"></li>
+                    <li><img src="media/twitter.svg" width="65" alt="Twitter"></li>
+                    <li><img src="media/youtube.svg" width="65" alt="Youtube"></li>
+                </ul>
+            </section>
+            <hr>
+            <small>© Copyright MilkyWay.</small>
+        </footer>
+        <script src="javascript/script.js" type="text/javascript"></script>
+    </body>
+
+</html>

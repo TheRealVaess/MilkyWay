@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MilkyWay | Planètes</title>
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/planetes.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./media/rocket.png">
+</head>
+
+<body>
+    <header>
+        <nav class="nav_fix">
+            <div class="fond">
+                <a href="./index.html"><img src="./media/Logo.png" width="auto" height="80" alt="Logo"></a>
+            </div>
+            <ul class="liste_menu">
+                <li><a href="./planetes.html">Planètes</a></li>
+                <li><a href="./equipe.html">Team</a></li>
+                <li><a href="./presse.html">Presse</a></li>
+                <li class="a_gg" onclick="openNav()"><span class="icon_menu">&equiv;</span></li>
+                <li><a href="./recrutement.html">Recrutement</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <nav id="nav_responsive" class="nav_responsive">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="./planetes.html">Planètes</a>
+            <a href="./equipe.html">Team</a>
+            <a href="./presse.html">Presse</a>
+            <a href="./recrutement.html">Recrutement</a>
+            <a href="./faq.html">FAQ</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <main id="planetes">
+        <aside>
+            <input id="recherche" type="search" placeholder="Rechercher">
+            <p>Cliquez sur les planètes pour plus de détails</p>
+        </aside>
+        <ul id="galerie" class="galerie">
+            <li>
+                <div class="box-img">
+                    <img src="./media/saturne.jpg" alt="Saturne">
+                    <a href="./planetes/exemple-presentation.html" class="looking" target="_blank"><img src="./media/looking.png" alt="Détails planète"></a>
+                </div>
+                <p><strong>Saturne</strong>Une grosse planète.</p>
+            </li>
+            <li>
+                <div class="box-img">
+                    <img src="./media/uranus.jpg" alt="Uranus">
+                    <a href="./planetes/exemple-presentation.html" class="looking" target="_blank"><img src="./media/looking.png" alt="Détails planète"></a>
+                </div>
+                <p><strong>Uranus</strong>Une petite planète.</p>
+            </li>
+            <li>
+                <div class="box-img">
+                    <img src="./media/mars.jpg" alt="Mars">
+                    <a href="./planetes/exemple-presentation.html" class="looking" target="_blank"><img src="./media/looking.png" alt="Détails planète"></a>
+                </div>
+                <p><strong>Mars</strong>Une planète vivable.</p>
+            </li>
+            <li>
+                <div class="box-img">
+                    <img src="./media/saturne.jpg" alt="Saturne">
+                    <a href="./planetes/exemple-presentation.html" class="looking" target="_blank"><img src="./media/looking.png" alt="Détails planète"></a>
+                </div>
+                <p><strong>Saturne</strong>Une grosse planète.</p>
+            </li>
+            <li>
+                <div class="box-img">
+                    <img src="./media/uranus.jpg" alt="Uranus">
+                    <a href="./planetes/exemple-presentation.html" class="looking" target="_blank"><img src="./media/looking.png" alt="Détails planète"></a>
+                </div>
+                <p><strong>Uranus</strong>Une petite planète.</p>
+            </li>
+            <li>
+                <div class="box-img">
+                    <img src="./media/mars.jpg" alt="Mars">
+                    <a href="./planetes/exemple-presentation.html" class="looking" target="_blank"><img src="./media/looking.png" alt="Détails planète"></a>
+                </div>
+                <p><strong>Mars</strong>Une planète vivable.</p>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <blockquote>“La jeunesse veut l'espace, la vieillesse le temps. ”</blockquote>
+        <section class="social">
+            <ul class="liste_menu">
+                <li><img src="./media/facebook.svg" width="45" alt="Facebook"></li>
+                <li><img src="./media/twitter.svg" width="45" alt="Twitter"></li>
+                <li><img src="./media/youtube.svg" width="45" alt="Youtube"></li>
+            </ul>
+        </section>
+        <hr>
+        <small>© Copyright MilkyWay.</small>
+    </footer>
+    <script src="./javascript/script.js" type="text/javascript"></script>
+</body>
+
+</html>
