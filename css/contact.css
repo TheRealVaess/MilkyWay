@@ -1,0 +1,61 @@
+/* ===== Styles Contact ===== */
+#contact{
+    flex-direction: column;
+    background: url("../media/fond.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#contact .formulaire{
+    margin: 1%;
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+#contact .contacts{
+   text-align: center;
+   background-color: rgba(255, 255, 255, 0.65);
+}
+
+#contact .map {
+    width: 100%;
+    margin-bottom: -4px; /* Bug Google map */
+    pointer-events: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border: 3px solid #555;
+    outline: none;
+}
+
+textarea {
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+input[type=submit] {
+    background-color: #e1e1e1;
+    color: darkblue;
+    padding: 16px 32px;
+    margin-bottom: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+label:not(.cbox) {
+    display: block;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    pointer-events: none;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+input[type="checkbox"]{
+    width: auto;
+    margin-right: 5px;
+    margin-left: 3px;
+}
